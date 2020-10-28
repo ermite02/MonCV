@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Devonshire&display=swap');
+@font-face { 	font-family: "Amarillo"; 	src: url('../font/Amarillo.woff'); }
+
+
+
+
+html,button,input,select,textarea,i{
+    color: rgb(58, 0, 0);
+    font-family: calibri;
+}
+
+html{
+    font-size: 1em;
+    line-height: 1.4;
+    background-color: #a1ccdb;
+}
+
+#wrapper{
+    max-width: 900px;
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image{
+    float: right;
+}
+
+header{
+    border-radius: 3px;
+    background-color: #F9F9F9;
+    box-shadow: 2px 4px rgba(0,0,0,0.2);  
+    text-align: center;
+}
+
+.no-style-list{
+    list-style: none;
+}
+
+h1,h2{
+    font-family: Amarillo, Devonshire,sans-serif;
+    src: local('font/Amarillo.ttf');
+    padding-top: 20px;
+}
+
+.profession{
+    font-family: Amarillo, Devonshire,sans-serif;
+    padding-bottom: 20px;
+}
