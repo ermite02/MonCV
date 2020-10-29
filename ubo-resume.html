@@ -3,6 +3,8 @@
 	<head>  
 		<meta charset="utf-8"> 
 		<link rel="stylesheet" href="css/resume.css"/>
+		<link rel="stylesheet" href="css/responsive.css"/>
+		<script src="js/script.js"></script>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<meta http-equiv="X-UA-Compatible"content="IE=edge,chrome=1"> 
 		<title>Mon CV</title> 
@@ -20,104 +22,142 @@
 				<h2 class="profession">Ingénieur Informatique</h2>
 			</header>
 			
-			<img class="image"src="Photo-identite.jpeg" height="150px" width="116px">
+			<img class="image"src="images/Photo-identite.jpeg" height="150px" width="116px">
 			
-				<li class="no-style-list">
-					<i class="fa fa-map-marker" aria-hidden="true">4 Rues des Archives, Batiment A, Numero 313.</i>
-				</li>
-				<li class="no-style-list">
-					<i class="fa fa-birthday-cake" aria-hidden="true">	31 Décembre 1998</i>
+				<div class="infos">
+					<div class='icons'>
+						<i class="fa fa-map-marker" aria-hidden="true"></i></br>
+						<i class="fa fa-birthday-cake" aria-hidden="true"></i></br>
+						<i class="fa fa-envelope" aria-hidden="true"></i></br>
+						<i class="fa fa-flag" aria-hidden="true"></i></br>
+						<i class="fa fa-male" aria-hidden="true"></i></br>
+					</div>
 					
-				</li>
-				<li class="no-style-list">
-					<i class="fa fa-envelope" aria-hidden="true">aymenhamzaoui02@gmail.com</i>
-					
-				</li>
-				<li class="no-style-list">
-					<i class="fa fa-flag" aria-hidden="true">Marocain</i>
-					
-				</li>
-				<li class="no-style-list">
-					<i class="fa fa-male" aria-hidden="true">Célibataire</i>
-					
-				</li>
+					<div>
+						<span>4 Rues des Archives, Batiment A, Numero 313.</span></br>
+						<span>31 Décembre 1998</span></br>
+						<span>aymenhamzaoui02@gmail.com</span></br>
+						<span>Marocain</span></br>
+						<span>Célibataire</span></br>
+					</div>
+				</div>
 			
 
 			<article>
-				<h2>Profil</h2>
-				<p>
-					Développeur en freelance depuis cinq ans, je souhaite désormais mettre mes compétences et mon expérience au service d’Orange. Ayant conçu plusieurs dizaines d’applications de différents genres (jeux mobiles, news, quiz, outils...), je peux appliquer à l’équipe de développement d’Orange mes connaissances techniques (HTML5, Java/J2EE, C#), en UI et en analyse. À quoi s’ajoutent mes excellentes capacités d’adaptation et de communication.
-				</p>
-			</article>
-
-			<article>
-				<h2>Expériences professionnelles</h2>
-
-				<article>
-					<h4>Développeur applications mobiles </h4>
+				<h2><i class="fa fa-plus" aria-hidden="true" onclick="ShowBlock(event)"></i>Profil</h2>
+				<div class="content" style="display: none; opacity: 0;">
 					<p>
-						<ul>
-							<li>Concevoir et développer 35 applications (pour Android et iOS).</li>
-							<li>Entretenir et mettre à jour les applications en fonction des évolutions des OS et appareils.</li>
-							<li>Analyser les données concernant le comportement des utilisateurs et optimiser les applications en conséquence (UI, vitesse, fluidité, parcours utilisateur…).</li>
-						</ul>
-						<p>Mars 2014 - Août 2014</p>
+						Développeur en freelance depuis cinq ans, je souhaite désormais mettre mes compétences et mon expérience au service d’Orange. Ayant conçu plusieurs dizaines d’applications de différents genres (jeux mobiles, news, quiz, outils...), je peux appliquer à l’équipe de développement d’Orange mes connaissances techniques (HTML5, Java/J2EE, C#), en UI et en analyse. À quoi s’ajoutent mes excellentes capacités d’adaptation et de communication.
 					</p>
-				</article>
-
-				<article>
-					<h4>Développeur web junior <span>(Stage de 6 mois)</span></h4>
-					<p>
-						<ul>
-							<li>Participer au développement de l’application Smoothware (logiciel logistique et entrepôt).</li>
-							<li>Créer une démo du logiciel pour les prospects.</li>
-							<li>Optimisation des aspects graphiques (UI) et techniques (page load) du site web de l’entreprise pour améliorer le trafic et taux de conversion.</li>
-						</ul>
-					</p>
-				</article>
+				</div>
+				
 			</article>
 
 			<article>
-				<h2>Formation</h2>
-
-				<article>
-					<h4>2014</h4>
-					<p>Diplôme d'ingénieur sciences et technologies numériques</p>
-					<p>IMT Lille Douai</p>
-				</article>
+				<h2><i class="fa fa-plus" aria-hidden="true" onclick="ShowBlock(event)"></i>Expériences professionnelles</h2>
+				<div class="content" style="display: none; opacity: 0;">
+					<article>
+						<h4>Développeur applications mobiles </h4>
+						<p>
+							<ul>
+								<li>Concevoir et développer 35 applications (pour Android et iOS).</li>
+								<li>Entretenir et mettre à jour les applications en fonction des évolutions des OS et appareils.</li>
+								<li>Analyser les données concernant le comportement des utilisateurs et optimiser les applications en conséquence (UI, vitesse, fluidité, parcours utilisateur…).</li>
+							</ul>
+							<p>Mars 2014 - Août 2014</p>
+						</p>
+					</article>
+	
+					<article>
+						<h4>Développeur web junior <span>(Stage de 6 mois)</span></h4>
+						<p>
+							<ul>
+								<li>Participer au développement de l’application Smoothware (logiciel logistique et entrepôt).</li>
+								<li>Créer une démo du logiciel pour les prospects.</li>
+								<li>Optimisation des aspects graphiques (UI) et techniques (page load) du site web de l’entreprise pour améliorer le trafic et taux de conversion.</li>
+							</ul>
+						</p>
+					</article>
+				</div>
+				
 			</article>
 
 			<article>
-				<h2>Compétences personnelles</h2>
-				<ul>
-					<li>Communication précise et rapide.</li>
-					<li>Adaptation aux projets et technologies.</li>
-					<li>Grande capacité d’analyse.</li>
-					<li>Réactivité.</li>
-				</ul>
+				<h2><i class="fa fa-plus" aria-hidden="true" onclick="ShowBlock(event)"></i>Formation</h2>
+				<div class="content" style="display: none; opacity: 0;">
+					<article>
+						<h4>2014</h4>
+						<p>Diplôme d'ingénieur sciences et technologies numériques</p>
+						<p>IMT Lille Douai</p>
+					</article>
+				</div>
+				
 			</article>
 
 			<article>
-				<h2>Langues</h2>
-				<ul>
-					<li>Arabe: Langue maternelle</li>
-					<li>Français: Bilingue</li>
-					<li>Anglais: Courant</li>
-				</ul>
+				<h2><i class="fa fa-plus" aria-hidden="true" onclick="ShowBlock(event)"></i>Compétences personnelles</h2>
+				<div class="content" style="display: none; opacity: 0;">
+					<ul>
+						<li class="competences" >Communication précise et rapide.<span class='tooltip'>J'ai développé cette notion à travers mes différents stages</span></li>
+						<li class="competences">Adaptation aux projets et technologies.<span class='tooltip'>Je sais gérer mon stress</span></li>
+						<li class="competences">Grande capacité d’analyse.<span class='tooltip'>Je peux aboutir à une solution rapide et efficace</span></li>
+						<li class="competences">Réactivité.<span class='tooltip'>J'ai l'esprit vif</span></li>
+					</ul>
+					<div class="cont" style="display: flex;">
+						<div class="vl" style="margin-right:4px ;"></div>
+						<div class="vll" style="display: flex; " >
+					   
+							<script>
+								let table1=["Communication ","Adaptation","Analyse","Réactivité"]
+								let table=[4,5,3,3]
+								for( var i=0;i< table.length;i++){
+									document.write("<div style='width:5vw;margin-right:2vw'>");
+								for( j=0;j<table[i];j++){
+									
+								   
+									document.write("<div class='caro' style='width: 5vw;height: 5vw; background-color: #F5F5F5; box-shadow: -2px 2px rgba(0,0,0,0.2);  ' ></div>");
+				
+									  
+								}
+	
+								document.write("<p style='font-size:1.5vw;transform:rotate(180deg);'>"+table1[i]+"</p></div>");
+							}
+							 
+							</script>
+						</div>
+						</div>
+					<div class="vl2"></div>
+				</div>
+				
 			</article>
 
 			<article>
-				<h2>Certifications</h2>
-				<ul>
-					<li>Oracle Certified Associate, Java SE 8 Programmer</li>
-					<li>Certification Microsoft programmation en HTML5 avec JavaScript et CSS3 (70-480)</li>
-				</ul>
+				<h2><i class="fa fa-plus" aria-hidden="true" onclick="ShowBlock(event)"></i>Langues</h2>
+				<div class="content" style="display: none; opacity: 0;">
+					<ul>
+						<li>Arabe: Langue maternelle</li>
+						<li>Français: Bilingue</li>
+						<li>Anglais: Courant</li>
+					</ul>
+				</div>
+				
+			</article>
+
+			<article>
+				<h2><i class="fa fa-plus" aria-hidden="true" onclick="ShowBlock(event)"></i>Certifications</h2>
+				<div class="content" style="display: none; opacity: 0;">
+					<ul>
+						<li>Oracle Certified Associate, Java SE 8 Programmer</li>
+						<li>Certification Microsoft programmation en HTML5 avec JavaScript et CSS3 (70-480)</li>
+					</ul>
+				</div>
+				
 			</article>
 			
 			<footer>
-				<li><a href="https://www.facebook.com/aymen.hamzaoui.1029/">MonFB</a></li>
-				<li><a href="https://github.com/ermite02">MonGIT</a></li>
-				<li><a href="https://www.linkedin.com/in/aymen-hamzaoui-4254a11a0/">MonLinkedIn</a></li>
+				<a href="https://www.facebook.com/aymen.hamzaoui.1029/">MonFB</a>
+				<a href="https://github.com/ermite02">MonGIT</a>
+				<a href="https://www.linkedin.com/in/aymen-hamzaoui-4254a11a0/">MonLinkedIn</a>
 			</footer>
 			
 		

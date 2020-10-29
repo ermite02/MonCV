@@ -1,0 +1,29 @@
+@media only screen and (max-width: 740px){
+	/*#wrapper{background: #f77;}*/
+
+}
+
+@media only screen and (max-width: 570px){
+	/*#wrapper{ background:#7f7; }*/
+
+}
+
+@media only screen and (max-width: 480px){
+	/*#wrapper{ background:#77f; }*/
+}
+
+@media only screen and (max-width: 860px){
+    /*#wrapper{background: #f77;}*/
+    
+	.image{
+        float:none;
+        display:block;
+        margin-left:auto;
+        margin-right: auto;
+	}
+	.infos{
+		float:none;
+		position: static;
+	}
+
+}
